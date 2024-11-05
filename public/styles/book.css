@@ -1,0 +1,144 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-section {
+    background-color: #A000D6;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid black;
+    width: 72%;
+    display: flex;
+    position: absolute;
+    left: 14%;
+}
+
+.img-container {
+    width: 128px;
+    flex-shrink: 0;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.description {
+    border: 1px solid black;
+    width: 72%;
+    position: absolute;
+    left: 14%;
+    top: 431px;
+    font-size: 1.4rem;
+}
+
+.notes {
+    border: 1px solid black;
+    margin-top: 3rem;
+}
+
+main {
+    margin-bottom: 105rem;
+}
+
+footer {
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    top: 2297px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-section {
+    background-color: #A000D6;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid black;
+    width: 72%;
+    display: flex;
+    margin: 0 auto; /* Centers the container */
+}
+
+.img-container {
+    width: 128px;
+    flex-shrink: 0;
+    margin-top: .6rem;
+    margin-right: 3rem;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.description {
+    /* border: 1px solid black; */
+    width: 72%;
+    margin: 2rem auto; /* Adds margin above and centers it */
+    font-size: 1.4rem;
+}
+
+.notes {
+    /* border: 1px solid black; */
+    margin-top: 3rem;
+    width: 72%;
+    margin: 3rem auto; /* Centers the notes section */
+}
+
+main {
+    padding-bottom: 3rem; /* Adds spacing at the bottom to create margin before the footer */
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 3rem; /* Ensures there’s a gap above the footer */
+    position: relative;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
